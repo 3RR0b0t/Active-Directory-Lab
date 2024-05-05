@@ -135,98 +135,120 @@ Installing Windows 10 into Virtual Box
 
 Open virtual box and click “New”
 
-Screenshot 2024-04-23 224127.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/d7b68996-8cdd-430c-bec0-d3b303c189d0)
+
 Enter a “Name”:
 
 Then Enter the Iso Image by clicking the arrow and selecting “other”, navigate to the downloaded file. 
 
-Screenshot 2024-04-23 224328.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/3865e149-f18a-4a71-ab22-9995430357a3)
+
 Next page.
 
-Screenshot 2024-04-23 224428.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/0a80a406-ba9e-46a8-bc6a-753f3a54750b)
+
 Next page. 
 
-Screenshot 2024-04-23 224533.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/8e0602c4-23b9-497e-9f3e-9b9c27ce19ec)
+
 Next page. 
 
-Screenshot 2024-04-23 224614.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/b7c2c225-5e63-44dd-b649-da7957ef2cb0)
+
 Next page. 
 
-Screenshot 2024-04-23 224708.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/7492a541-e398-4b64-878b-9461910a2f3c)
+
 Then click the start button and finish installing Windows 10.
 
-Screenshot 2024-04-23 224857.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/7067a1bd-275a-4761-9fb7-abd50977e92a)
+
 Then click “Install”.
 
 Then click “I don’t have a product key”
 
-Screenshot 2024-04-23 225020.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/25c0f1aa-9fde-49a0-8822-901dbc2dffba)
+
 Then click “Windows 10 pro”
 
-Screenshot 2024-04-23 225125.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/b0071dbc-e1d5-482e-8031-dd6023405ccc)
+
 Then accept the agreements.
 
 Then click “Custom Install Windows only (advanced)”
 
-Screenshot 2024-04-23 225444.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/2f5223a1-2f8f-46b6-8160-ebeb1d5b9303)
 
 
-Screenshot 2024-04-23 225547.png
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/d941227e-395b-4332-9d89-a18105154075)
+
 Click “Next”
 
 Next Page, wait for the installations 
 
-Screenshot 2024-04-23 225655.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/186de803-7bd9-47c4-8554-d96cb40508b1)
+
 Installing Kali Linux
 
-Screenshot 2024-04-23 225927.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/b60c7f77-cf70-4f4b-ab57-38b948ae32c4)
+
 Click Download.
 
 Navigate to “Pre-built VMS”
 
 Ensure your system is compatible  with download.
 
-Screenshot 2024-04-23 230256.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/eff8c892-cc2e-4106-99ae-1bcea6b31677)
+
 Install VirtualBox 64 2.96G
 
 Next step is to navigate to “7-zip.org” website to unzip your kali download. 
 
-Screenshot 2024-04-23 230730.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/c0ca8ab0-ee3f-432c-b7a3-21701c33e7c1)
+
 Click “Download | exe | 64-bit x64 | 1.5 MB” then install 7zip
 
 Navigate to your downloads and install Kali Linux 
 
-Screenshot 2024-04-23 232627.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/f792433e-f184-4f82-be71-8fdeacec31a5)
+
 After the process is finished Open your new Kali Linux
 
-Screenshot 2024-04-23 232935.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/789a328c-9287-4baa-997c-5433bd4f8d6a)
+
 Double Click Kali-Linux.
 
-Screenshot 2024-04-23 233018.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/ce0ca098-ef7b-40a8-8d09-f7b0648aba2b)
+
 Install Kali in Virtual box. 
 
 Installing Windows Server
 
 Navigate to google and search for “window server 2022 iso” then click “download the iso”
 
-Screenshot 2024-04-24 003931-20240424-043931.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/3d7ddb59-9f67-422f-baa0-f06cf754a150)
+
 Then fill out the questionnaire.
 
 Next page click on “64-bit edition”
 
-Screenshot 2024-04-24 004058.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/7beb1ae0-8537-4f5c-a971-22c32e22b6ba)
+
 After finish downloading add the file to your virtual box follow steps from above.
 
 The Windows server Installation below.
 
 Click “start” Then wait for windows server to boot up the hit “next”
 
-Screenshot 2024-04-24 005131.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/bfbef4c1-1433-4c27-87ed-17ed322841d4)
+
 Then click “install”.
 
 The click second option because it gives a more user friendly GUI.
 
-Screenshot 2024-04-24 005316.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/fbd518b8-29dc-4f49-b905-6a8da4d7068a)
+
 Then accept terms and agreements.
 
 The next page select “Custom”.
@@ -241,10 +263,12 @@ Navigate to Ubuntu.com
 
 Click “Products”
 
-Screenshot 2024-04-24 011725-20240424-051726.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/1c13f93c-7ce0-43f3-8586-65942ec8fdb3)
+
 Next page.
 
-Screenshot 2024-04-24 011743-20240424-051743.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/f725a9b0-654e-4d6f-bf4a-03703c4a597f)
+
 Next page is too choose the latest version of ubuntu server.
 
 Then navigate to virtual box to install. Follow steps for installation below. 
@@ -255,39 +279,46 @@ Then give Server a “name”, then add ISO Image from download folder by click 
 
 
 
-Screenshot 2024-04-24 014622.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/2d77c7c9-aad5-4b0b-8c79-0071e23e2fe5)
+
 
 
 Set memory to 8GB and processor to 2 
 
-Screenshot 2024-04-24 014657.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/d3d088ef-f935-40a2-973f-d92d806d3778)
+
 Set to 100GB
 
-Screenshot 2024-04-24 014710.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/c306abc2-e42c-4109-8b9d-863c5d0aaec7)
+
 After completed click “Start” to power on server
 
 Follow instructions below to set up
 
 For the first few steps click “enter”  
 
-Screenshot 2024-04-24 015033.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/45225461-aace-4308-92c7-9cdd41538ad3)
+
 
 
 Then click “continue” when prompted
 
-Screenshot 2024-04-24 015135.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/9677a134-1caf-48bd-8e38-359a7f0daf7d)
+
 Click “done” for next few prompts.
 
 Then click “continue” 
 
 
 
-Screenshot 2024-04-24 015338-20240424-055339.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/51e200d8-1022-4fe4-9a29-b3c111d11031)
+
 Then enter credentials. 
 
 
 
-Screenshot 2024-04-24 015456.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/2900bd24-0a99-4147-b05b-993d0d962dcd)
+
 After click “done” for next few steps.
 
 Then wait for installations until you see “reboot now”
@@ -296,11 +327,20 @@ Click “reboot now”
 
 When prompted with page below hit “enter”
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/f51fe99d-ffc0-40ad-b2c8-18a989ce3c63)
+
+
 Then log into server. 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/2ff1223e-eb22-4dc0-a127-715e7251ed26)
+
 
 Don’t worry about not seeing password, type correct password and then click Enter.
 
 The run an upgrade on server using command below. 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/bb64bec1-5d9d-4bba-b161-400c7162376f)
+
 
 ## Active Directory Project (Home Lab) | Part 3
 
@@ -316,10 +356,13 @@ Instructions are as follows.
 
 Navigate to virtual box, click “tools” the “network”
 
-Screenshot 2024-04-26 132744.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/c4e44d2b-7a0a-43b8-82f4-f21e3779503c)
 
 
 Click “NAT Network” then click “Create”
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/496a2c33-6c75-4f73-8a74-6ba950b26be4)
+
 
 Down at the bottom of the page change to whatever is suitable “Name” as for “IPv4 Prefix” refer back to diagram, when finish make sure to hit apply.
 
@@ -329,10 +372,14 @@ click “Splunk” then “settings” then “network”. In Adapter 1 change �
 
 
 
-Screenshot 2024-04-26 134227.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/c84a0ef7-a855-42f1-ab46-74fa5a030c52)
+
 Next is to do the same for all virtual machines downloaded in this project.
 
 After doing so the next step is to check Ip address on Splunk server to match Ip specified in the diagram I created earlier and if it doesn’t match I have to change it.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/a9ac5f65-50ab-4f2f-b976-e3d45a2b681a)
+
 
 To change or resetting IP address which is setting up a Static IP address.
 
@@ -340,14 +387,19 @@ Instructions:
 
 note. “sudo nano /etc/netplan/” Click “Tab” on keyboard to auto complete.
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/ed022d44-42f7-42e3-bb5b-6b6043514bfb)
+
+
 When prompted with the next page enter in the information from the diagram created in part 1. Example is below, Use “Tab” and arrows to navigate. When finish “Ctrl + x” to save then type “y”. clear screen after
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/392c2f73-7a6c-4013-ae28-6f02f2c65966)
 
 
 Next Step is to apply changes. When prompted with warnings, ignore because we are just a “LAB” environment.
 
-Screenshot 2024-04-26 140817.png
-  After doing so retype “ip a” in command line to check if changes have been made to IP address.
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/b595e73a-fc9d-47ae-bc7b-95161478e7ed)
+
+After doing so retype “ip a” in command line to check if changes have been made to IP address.
 
 Also check connection with “ping google.com” . If didn’t work redo steps above.
 
@@ -357,34 +409,48 @@ Next is start installing Splunk if all connection works. Note: install Splunk on
 
 Navigate to “Splunk.com”
 
-Screenshot 2024-04-26 141537.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/9938de5b-02d6-4469-895b-806a58d977a1)
+
  Make sure to sign if haven’t already.
 
 When finish click “Products” then “Free Trails & Downloads”
 
-Screenshot 2024-04-26 141723.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/ac801f6d-b995-4b22-b98d-944658cf88ce)
+
 Scroll down to “Splunk Enterprise” click “Get My Free Trail” 
 
 Next. select “Linux” then download the “.deb” . Save file in a directory of your choice.
 
-Screenshot 2024-04-26 141947.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/0329233d-558e-454e-9420-4ab9281f73a4)
+
 Navigate back to Splunk virtual box and Install the guest add-ons for virtual box.
 
 Note: “Tab” was use to identify options and also to auto complete.
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/3b9f5fb9-7826-4e84-85dc-ee95bff0b5d7)
+
+
 Click enter and when prompted type “y” then click “Enter” it may take a while to download. when prompted with screen below hit “Enter” then clear screen 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/2cdc161f-1150-4a12-aa1c-99685b7089f8)
 
  When cleared in the top left corner click “Devices” then “Shared Folders” then “Shared Folder Settings”
 
-Screenshot 2024-04-26 142847.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/a682106c-11a4-4473-882a-682574eac6df)
+
+
 Add folder.
 
-Screenshot 2024-04-26 142943.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/4d48ad0d-a945-40dd-a335-b19b77f04df9)
+
+
 For the “Folder Path” Select the folder where the Splunk installer was downloaded to, an example is below.
 
 Click “OK” when done.
 
-Screenshot 2024-04-26 151214.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/64dceeb4-baec-4ed1-9442-ae69ebac7276)
+
+
 Back on Splunk command line Type “sudo reboot”
 
 Log back in when prompted.
@@ -393,10 +459,13 @@ Then when logged in Add user to the vbox SF group.
 
 Note: User name might be different.
 
-Screenshot 2024-04-26 151543.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/af277e50-05cd-4880-96dd-3375b8980281)
+
+
 If this pops up install additional guest requirements. Click “Enter” when done. 
 
-Screenshot 2024-04-26 151903.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/b76c5229-dcf4-42f1-9505-3e783138771d)
+
 Then “sudo reboot”
 
 Log back in.
@@ -405,31 +474,57 @@ Try again and add user to that group
 
 Note: User name might be different for you
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/b9d99333-b7cf-4549-b54b-59096fec184e)
+
+
 Next step is to create a new directory called share.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/274e4102-2f1b-4a27-b07f-0035e07c14ad)
+
 
  Now that new directory has been created, mount shared folder onto the directory called share  
 
 folder name created earlier was: 
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/431ef954-ce56-47cd-8660-042410fc8745)
+
+
 Then click “Enter”.
 
 Next steps are shown.
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/ad920265-7d07-47b2-b748-036325ac8026)
+
+
 The next imagine shows all files listed in the Directory, Including the Splunk Installer.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/5d66edc4-1183-4da6-91ba-e1e5732d30a5)
+
 
 Installing Splunk. Then wait until its “complete”.
 
-Screenshot 2024-04-26 153234.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/203be7fc-41b2-49d0-84cf-4a5efdbec337)
+
 Next step is to change into the directory where Splunk is located onto our server.
 
 Note: All the “Splunk Splunk” is good because it limits the permission to that user.
 
-Screenshot 2024-04-26 154117.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/bcf2d668-1295-4231-a553-aceacf449e6d)
+
 Change into the user name Splunk.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/efb121e5-b67e-4c18-8b18-28c9e42d3d13)
+
 
 Then “cd” into “bin”. The files listed in here are all the binary splunk can use.
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/84b6e150-d5cf-4682-b81d-444844512372)
+
+
 Next step. 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/d70615f9-fa06-4041-a695-3332fd0ea365)
+
 
 When prompted with the license agreement click “q”
 
@@ -441,79 +536,147 @@ Everything should be installed.
 
 For extra measure. Enter the following command so that splunk start up every time the virtual machine reboots
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/43db5231-52c0-4dfd-adfb-cb4e8ab3f985)
+
+
 Installing Splunk Universal Forwarder and Sysmon on the target machine and server.
 
-   Optional step. 
+Optional step. 
 
 Changing the name of the target machine to Target-PC
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/2e4bdd2b-a8d8-4a11-ac52-811e6613bca9)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/b22d31fc-19d3-4685-b95c-d72eb486420e)
+
+
 Next is to make sure the IP address matches our diagram.
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/e1ebebbc-5111-47f6-809d-4a898d309908)
+
+
 If IP address doesn’t match it would have to be changed.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/1b1b55ee-5ab9-46aa-b9ae-f927fdc33bea)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/a251003c-ab58-4328-b245-aba897677a1c)
+
 
 Then right “Ethernet”
 
 Then click “Properties” 
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/b88b3db5-bfae-4d4e-a953-50467f1e9cde)
+
+
 Next is to double click on “Internet Protocol Version 4”
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/0b7d6071-0d46-45d1-bd16-30fafc8b6187)
 
 
 Fill in the fields.
 
 Then click “OK”
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/f20fdefd-70ad-4492-a060-835ea661c1f6)
+
+
 Navigate back to Command prompt and enter “ipconfig” the IP address should be changed
 
-Screenshot 2024-04-26 214437.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/4bea524a-f501-4c1e-8123-1ce41289f398)
+
 Click on the browser and  try to access Splunk server. Splunk listen on port 8000
 
-Screenshot 2024-04-26 214603.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/6a11ce9a-1d5a-4cc5-9418-776137d65c7c)
+
 should be prompted with the page below
 
-Screenshot 2024-04-26 214617.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/ec33bdd2-c96a-41ec-a257-8e2f43b59c39)
+
 If you run into a problem which I did, navigate to back to the Splunk server and type the follow command to make sure the server is listening. 
 
-Screenshot 2024-04-26 215219.png
-Screenshot 2024-04-26 215238.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/e3cfde8a-2b82-4cd9-853b-ccf4b445bde8)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/98592400-925e-4369-b69a-f12dfab9fc49)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/45cb9fad-f22b-4958-9044-c96ee1ffd02f)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/ed85a3e5-5111-4fb0-af5c-6573e8200aa1)
+
+
 Then navigate back to the target PC and try to reconnect to the Splunk server.
 
 Next step is to install Splunk Universal Forwarder. Head to Splunk website on the Target Pc and login with the account you created earlier.
 
-Screenshot 2024-04-26 220303.png
-Screenshot 2024-04-26 220322.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/21a71e0d-2c3c-45ab-a4c4-07cab716024f)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/31d604c8-09e2-4d2c-953f-361c6fd7fc55)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/0346e02d-6fc9-4591-8845-a84957b02dac)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/5bc0002d-c1b9-4d0e-bdb5-19414a2d8015)
+
+
+
 Head to the download folder and install Splunk Forward.
 
 Follow instruction below. 
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/460230ef-f39d-465b-88dd-3c406a125e80)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/93904ac1-8e25-4134-85fb-ca1ab412d4e6)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/11e0092a-67fe-43f1-9752-c92a2059cf92)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/59aa8ed3-bc6f-4a0c-9acb-5ef47a591455)
+
+
 Installing Sysmon. Follow instruction below.
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/97895102-eaf7-4c2e-b6d4-df8ea26ce013)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/a2089a44-8923-42b7-90a9-11320612912c)
 
 
 Sysmon Configuration. Follow instruction below
 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/90f06803-0c25-4f7b-8b4a-d1ff279f5c0a)
+
 Scroll all the way down.
 
-Screenshot 2024-04-26 221538.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/94709ff9-088c-4336-9147-15740df2fcf5)
+
 Then click on “Raw” on the right hand side.
 
-Screenshot 2024-04-26 221637.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/97958bb9-c069-4ab2-b9d9-8d1447b91e2e)
+
+
 Next right click “Save as”
 
 Save it under the downloads directory
 
-Screenshot 2024-04-26 221807.png
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/94445ace-0bcf-463c-b8ba-da85aca552b8)
+
 Navigate back to downloads folder and extract Sysmon file.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/a805db9c-37d4-469f-b21b-cdb035a3d464)
+
 
 Click Extract.
 
 Then right click on “Copy”
 
-Next open PowerShell and run as administrator. 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/4ff36ef8-41ad-4a35-bf42-f394c0809980)
+
+
+Next open PowerShell and run as administrator.
+
 
 On the command line change directory and paste the what was copied before.
 
 Then type “Sys” hit tab until you see .\Sysmon64.exe. See more below
+
+
 
 Next step is to instruction Splunk Forwarder to send what we want over to the Splunk Server. Instruction are below.
 
