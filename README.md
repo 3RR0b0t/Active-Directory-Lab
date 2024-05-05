@@ -677,13 +677,11 @@ On the command line change directory and paste the what was copied before.
 Then type “Sys” hit tab until you see .\Sysmon64.exe. See more below
 
 
-
 Next step is to instruction Splunk Forwarder to send what we want over to the Splunk Server. Instruction are below.
 
 The image below is Instructing the Splunk Forwarder to push events related to application, security and system as well as Sysmon over to the Splunk server
 
  
-
 Save note pad file under This pc > Program Files > Splunk Forwarder > etc > System > local.
 
 Change file name to “input.conf” 
@@ -694,9 +692,7 @@ click save.
 
 Next is to restart Splunk’s Universal Forwarder Services. Instructions are below.
 
-Screenshot 2024-04-26 225839.png
 Screenshot 2024-04-26 225903.png
-
 
 Screenshot 2024-04-26 225919.png
 Now we have Sysmon install and Splunk Universal Forwarder along with the updated inputs.conf file.
