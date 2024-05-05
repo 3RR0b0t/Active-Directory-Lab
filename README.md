@@ -692,9 +692,7 @@ click save.
 
 Next is to restart Splunk’s Universal Forwarder Services. Instructions are below.
 
-Screenshot 2024-04-26 225903.png
 
-Screenshot 2024-04-26 225919.png
 Now we have Sysmon install and Splunk Universal Forwarder along with the updated inputs.conf file.
 
 Now head over to the Splunk Server login page and sign in with your credentials. 
@@ -729,13 +727,11 @@ First navigate to the windows server on virtual box open your server and check t
 
 Test connectivity to make sure everything is working.
 
-Screenshot 2024-04-30 133735.png
 Once everything is working head over to Server Manager which is the icon you see below
 
-Screenshot 2024-04-30 133905.png
+
 Follow instructions to configure Server manager. 
 
-Screenshot 2024-04-30 134017.png
 Click “Next”
 
 Click “Next”
@@ -758,7 +754,6 @@ The page below is shows the important folders. Attackers love to target domain c
 
 Continue click “Next” until this page below pops up
 
-Screenshot 2024-04-30 140230.png
 The click “Install” 
 
 When the process is completed the server will ask to reboot. Click reboot
@@ -767,7 +762,6 @@ The log back into the Server.
 
 If you get a back”\” like that you everything was done good.
 
-Screenshot 2024-04-30 140814.png
 Next step is to create users. 
 
 When logged back in your server navigate back to Server Manager and click on “Tools” > “Active Directory Computers”
@@ -779,8 +773,6 @@ Expand mydfir.local
 Right click on mydir.local
 
 
-
-image-20240430-233411.png
 Then click finish.
 
 A new user in IT called jenny is created. 
@@ -797,40 +789,39 @@ Next is to head over to the Target-Pc and join it to the newly created domain ca
 
 On the windows 10 Pc/Target-PC Type “pc” then click on properties
 
-image-20240430-235230.png
+
 Scroll down to “Advanced system setting”
 
-image-20240430-235303.png
+
 To fix this Error Navigate to “Network Adapter” 
 
-image-20240430-235638.png
-image-20240430-235653.png
+
 Double click on “IPV4”
 
 Change Preferred DNS Server to the IP address to the windows server. 192.168.10.7 the click “OK” a couple times 
 
 To check configurations have been made navigate to Cmd command prompt 
 
-image-20240501-000138.png
+
 Go back to the pervious configurations and click “OK” and it should work.
 
-image-20240501-000259.png
+
 The you should be prompted to enter some credentials to login. Use the administration of the server to login
 
-image-20240501-000456.png
+
 Next prompt should ask to restart device.
 
-image-20240501-000603.png
+
 Click “close” then click “restart now”
 
-image-20240501-000652.png
+
 When present with the screen below, change the login information to jenny smith.
 
 
 
 Enter Jenny Smith credentials 
 
-image-20240501-000911.png
+
 That’s how to create new users, join computers to a new domain and log in as a domain user.
 
 ## Active Directory Project (Home Lab) | Part 5
