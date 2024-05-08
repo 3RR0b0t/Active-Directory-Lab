@@ -43,7 +43,7 @@ Generate telemetry with Kali Linux and Art(Atomic red team).
 
 ## Active Directory Project (Home Lab) Part 1
 
-In this part I going to focusing on Creating a logical diagram to showcase what I’ll be doing, along with the hardware requirements. 
+In this part I'm going to focusing on Creating a logical diagram to showcase what I’ll be doing, along with the hardware requirements. 
 
 ![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/fca7b92f-f39e-4d1e-ab1d-5b2faecbb499)
 
