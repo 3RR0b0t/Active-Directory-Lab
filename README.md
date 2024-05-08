@@ -834,6 +834,350 @@ Viewing Telemetry via Splunk
 Setup & Install ART(Atomic Red Team) and run test.
 
 
+Navigate to Kali Linux in virtual box 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/146899bd-71de-4820-b22c-0ef12a5970bb)
+
+
+Next is to setup a static IP address
+
+Right click Ethernet Icon at the top
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/959a35e9-34e3-48d0-9049-e7f8e8c29cb7)
+
+
+Select “Wired Connection 1” 
+
+Note you might have a different name assigned.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/f7404b87-a634-4174-85c4-0be0dcd40923)
+
+
+At the bottom select the cog icon 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/fc3cbf31-ae2c-48e2-8d1f-4f72a7f54260)
+
+
+Then select “IPV4 Settings”
+
+In the Method area select “Manual”
+
+Next click “Add”
+
+Enter in the IP address, Netmask and the Default Gateway 
+
+Enter in the DNS Servers. Then click save 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/043028e5-bf63-407a-9c74-ea4899f54537)
+
+
+When Finish close out window.
+
+Right click on Home screen “Open Terminal”
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/e7d0fafc-b3b5-4a60-8dcf-59498015bf01)
+
+
+Type “ip a” 
+
+If changes haven’t been made
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/406fcaa0-2d61-4c8b-8878-b5492aeb8283)
+
+
+Click on the Ethernet icon “Disconnect”
+
+Click on it again and select “Weird Connection 1”
+
+When done Retype “ip a”
+
+changes should be reflected now.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/df9c0f98-31f6-46c4-bf47-bcdb07db12ef)
+
+
+Verify by pinging google.
+
+Then also ping your Splunk Server.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/9be80150-3096-486a-afe2-4e62cacacff8)
+
+
+Next is to update and upgrade our repositories.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/fa9b6c1b-293f-4b6b-a496-05b6883603e0)
+
+
+Next is to Start setting up our attack.
+
+Create a new Directory called AD-Project.
+
+Install Crowbar.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/6d99be98-a32e-4d3d-9225-8f4272b9bb2c)
+
+
+install Rockyou.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/cd5aa37f-d798-4ce6-b4bd-71abce0cab47)
+
+
+Copy file on our AD-project folder.
+
+Note: Hit “Tab” for auto completion 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/3f84241d-eb06-4b80-a535-02d65c4524df)
+
+
+Change into AD-project  directory 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/b9cf6d9c-cd78-4c87-982d-c912c58672eb)
+
+
+Follow next few steps to finish up.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/c6eff976-777d-4849-9bae-ef2afc6c9a0d)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/2dae2fdd-f755-4c44-95e8-79ce4228363a)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/f7b98e7a-8982-42ab-856d-e193b0791658)
+
+
+
+
+Enter the password you saved for tsmith at the bottom.
+
+Note: Your password might be different 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/eaba1874-1e13-4bb2-91db-d02ab579ab8c)
+
+
+To save file “Ctrl x” 
+
+type in “y” then click enter 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/d022f076-a59b-4466-b72c-08265e20c68a)
+
+
+Navigate to your machine in your virtual box.
+
+Enable remote Desktop.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/784bc665-ece9-4749-9cdc-4313c8365ac3)
+
+
+Scroll down.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/ff535159-db72-429b-87ef-3006fef41835)
+
+
+Login with your administrator account
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/d9199405-a81c-4ca4-b5ca-116b34e0c33b)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/7132ccb7-c713-4537-b3dc-040a23a6cfab)
+
+
+
+Select Users.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/3c7d934c-6b2b-4e6b-bda3-2536151d6a22)
+
+
+Click Add
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/18f23063-ad0b-4972-af8e-2650efc751c9)
+
+
+Enter in “jsmith” click Check Names
+
+Then Enter “tsmith”  click Check Names
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/a59cea88-b088-4bf6-a8a6-e4551a6f5583)
+
+
+Click “Ok”
+
+Click “Ok”
+
+Then Click “Apply” Then Click “Ok” to close out.
+
+Head back over to Kali.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/2b9d2144-c317-43f5-aab7-b98fa3d95684)
+
+
+Launch attack
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/2b9e5a88-fc26-4992-a9c6-9aa682eb92bc)
+
+
+Head over to Splunk to see our Telemetry.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/a6ef1d6e-8f65-4ddf-a282-c1c5e64b16a0)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/6fbcac4b-3af0-471a-b4e0-6632fe1dc458)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/df0ac0f8-8d09-4151-842b-d527de2faf0f)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/0cb858eb-f779-4d4c-ae80-d031b27868d7)
+
+
+
+
+
+In your Search browser type “Event ID 4625”
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/2daba02e-db9b-48a3-8ffc-6c418d088fa4)
+
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/b2ea461a-ba55-486b-8246-c4651bb86c48)
+
+
+Go back to Splunk and Select the ID
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/69a51639-8a21-4783-8833-c41126139b65)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/588c3871-b365-4d11-8b16-e357584b3b34)
+
+
+
+Scroll down and look at the times which would indicate brute force activity 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/98a64492-329a-418b-8696-013976a175ec)
+
+
+Now in the search bar look at Event code =4624
+
+that would show you one event occurred
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/c9ee898e-2471-477b-bda7-d81980053688)
+
+
+If not sure what “4624” means go back to the browser
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/241dc2e6-f744-498a-9bd1-1c214c8207ef)
+
+
+A Successful Brute Force attack
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/14e50594-8824-46ca-bb59-60ee49a05757)
+
+
+Expand event by clicking Show all
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/fc212b3d-9832-4700-b31b-cc3979761966)
+
+
+
+
+Scroll down 
+
+You should your Ip address.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/87bfc1a1-5107-403f-b3ae-68381798893f)
+
+
+Next is to install Atomic red on our Target machine then we can run some test on.
+
+First open “Power shell” Run as Administrator
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/974c53ec-4ff1-4044-a0c5-119283af628c)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/d7ab731b-b95b-4ece-a174-44a5a743e120)
+
+
+
+Next Install the atomic red Team Framework 
+
+First Set an exclusion for the entire C drive as Microsoft Defender will detect and remove some of the files from Atomic red team.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/fce9941a-8019-4a03-aaef-87f0f91d3965)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/fce5cd7b-4f42-4030-84a9-bb0b8388d8f4)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/69bdd202-895e-41be-bbea-6d0fb6380129)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/7467be06-70d0-49c4-b412-7f568c370746)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/e1b1bd8f-0899-42da-bd5b-e300b187c592)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/e67d6129-ae9d-4a02-8ca2-5691947601b6)
+
+
+Login again as Admin 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/1b7a3e9a-3b89-45a7-8dfa-c7e8322ce372)
+
+To install Atomic Red Team run the following command.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/ad6118c0-262b-4641-93ca-eab6c250a3f2)
+
+
+When you see the following output Enter in “y”
+
+This will install the dependencies. Once its completed Head over to the C drive. 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/e9dfbbcf-363a-4889-9716-8f8555d0b6b4)
+
+
+The C drive 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/0b8ccfd1-0b42-42e5-a33b-a35e3734f1dc)
+
+
+Click “AtomicRedTeam>atomics”
+
+You will see a bunch of technique IDs and these map back to miter attack Framework 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/fc5c5c1a-eb72-4b31-9bec-f50d88f64e50)
+
+
+Head over to Mitre ATT&CK
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/c08add4c-3c20-4c3c-97fc-8b1e47591249)
+
+
+Scroll down to Matrix for Enterprise 
+
+There you will see all the techniques 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/e0f43d0a-0740-4476-9997-4d05aec160f2)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/c0042bb3-29ee-49f1-8107-21418edcc05f)
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/a5c4e290-630f-40ab-a357-11a114fb10f7)
+
+
+
+
+The command will automatically generate telemetry base on creating a local account.
+
+Pay attention to “NewLocalUser”
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/f9fd81cf-0539-4f34-aecc-9e6a9ade7d64)
+
+
+Navigate to Splunk and search specifically for NewLocalUSer 
+
+“0” events tells you that you are blind to this activity, a gap in visibility. 
+
+If an attacker compromise your system and created a local account with your current settings you will not be able to detect that activity.
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/1466e2f2-d46f-4d31-8c89-80f07b373577)
+
+
+Next example. 
+
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/5ef41286-33b5-4331-981b-01ca0b5e786c)
+
+
+Defender will catch some threat 
+![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/8d0100d5-bdc6-4c0c-b684-f3b7511d75d2)
+
+
+
+You can use this to build and detect on this activity in the future.
 
 
 
