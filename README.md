@@ -561,7 +561,6 @@ If IP address doesn’t match it would have to be changed.
 
 ![image](https://github.com/3RR0b0t/Active-Directory-Lab/assets/168855597/a251003c-ab58-4328-b245-aba897677a1c)
 
-
 Then right “Ethernet”
 
 Then click “Properties” 
